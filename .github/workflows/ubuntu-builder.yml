@@ -18,7 +18,7 @@ env:
   _STRIP: "true"
   _compiler: "llvm"
   _lto_mode: "full"
-  _kernel_on_diet: "false"
+  _kernel_on_diet: "true"
   _kernel_work_folder: "/tmp"
   _kernel_source_folder: "/tmp"
   # _modprobeddb: "true"
@@ -28,7 +28,12 @@ env:
   _custom_commandline: "biosdevname=0 net.ifnames=0"
   _clear_patches: "true"
   _configfile: "my.config"
-  
+  _user_patches: "true"
+  _default_cpu_gov: "schedutil"
+  _timer_freq: "300"
+  _processor_opt: "core2"
+  _bore_min_base_slice_ns: "1250000"
+  _compileroptlevel: "2"
 
 jobs:
   build-kernel:
