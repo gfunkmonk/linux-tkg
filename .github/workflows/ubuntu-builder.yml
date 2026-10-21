@@ -1,6 +1,6 @@
 name: Build Ubuntu kernel
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       _cpusched:
         required: true
