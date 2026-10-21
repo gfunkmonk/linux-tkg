@@ -31,7 +31,6 @@ env:
   _user_patches: "true"
   _default_cpu_gov: "schedutil"
   _timer_freq: "300"
-  _processor_opt: "core2"
   _bore_min_base_slice_ns: "1250000"
   _compileroptlevel: "2"
 
